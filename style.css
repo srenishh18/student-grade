@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial;
+    background: lightblue;
+}
+
+.container {
+    width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+}
+
+input {
+    width: 40%;
+    padding: 8px;
+    margin: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    color: green;
+}
+
+.subject-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.subject-row input {
+    width: 90px;
+    padding: 8px;
+}
+
+.subject-row label {
+    font-weight: bold;
+}
